@@ -1,15 +1,20 @@
 [submodule "base_app"]
 	path = base_app
 	url = https://github.com/DeividWillyan/-Curso-Base-APP.git
+	branch = master
 [submodule "micro_core"]
 	path = micro_core
 	url = https://github.com/DeividWillyan/-Curso-Micro-Core.git
+	branch = master
 [submodule "micro_app_home"]
 	path = micro_app_home
 	url = https://github.com/DeividWillyan/-Curso-Micro-App-Home.git
+	branch = master
 [submodule "micro_app_login"]
 	path = micro_app_login
 	url = https://github.com/DeividWillyan/-Curso-Micro-App-Login.git
+	branch = master
 [submodule "micro_commons_design_system"]
 	path = micro_commons_design_system
 	url = https://github.com/DeividWillyan/-Curso-Micro-Commons-Design-System.git
+	branch = master
