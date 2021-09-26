@@ -1,0 +1,40 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[PRD] Flutter",
+            "cwd": "base_app",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=DEFINE_APP_NAME=base_app",
+                "--dart-define=DEFINE_SERVER=200.467.323.32"
+            ]
+        },
+        {
+            "name": "[DEV] Flutter",
+            "cwd": "base_app",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=DEFINE_APP_NAME=[DEV] base_app",
+                "--dart-define=DEFINE_SUFFIX_NAME=.dev",
+                "--dart-define=DEFINE_SERVER=111.111.111.111"
+            ]
+        },
+        {
+            "name": "[QA] Flutter",
+            "cwd": "base_app",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=DEFINE_APP_NAME=[QA] base_app",
+                "--dart-define=DEFINE_SUFFIX_NAME=.qa",
+                "--dart-define=DEFINE_SERVER=222.222.222.222"
+            ]
+        }
+    ]
+}
